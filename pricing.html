@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockChain Innovators - Pricing</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <!-- Header content (same as index.html) -->
+    </header>
+
+    <main>
+        <section id="pricing-hero">
+            <h1>Our Pricing Plans</h1>
+            <p>Choose the perfect plan for your blockchain needs</p>
+        </section>
+
+        <section id="pricing-plans">
+            <div class="pricing-toggle">
+                <span>Monthly</span>
+                <label class="switch">
+                    <input type="checkbox" id="billing-toggle">
+                    <span class="slider round"></span>
+                </label>
+                <span>Annual</span>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-item">
+                    <h2>Starter</h2>
+                    <p class="price">$<span class="price-amount">999</span><span class="price-period">/month</span></p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Basic Smart Contract Development</li>
+                        <li><i class="fas fa-check"></i> 5 hours of Consulting</li>
+                        <li><i class="fas fa-check"></i> Email Support</li>
+                    </ul>
+                    <a href="contact.html" class="cta-button">Get Started</a>
+                </div>
+
+                <div class="pricing-item featured">
+                    <h2>Pro</h2>
+                    <p class="price">$<span class="price-amount">2,999</span><span class="price-period">/month</span></p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Advanced Smart Contract Development</li>
+                        <li><i class="fas fa-check"></i> Basic DApp Creation</li>
+                        <li><i class="fas fa-check"></i> 15 hours of Consulting</li>
+                        <li><i class="fas fa-check"></i> Priority Email & Phone Support</li>
+                    </ul>
+                    <a href="contact.html" class="cta-button">Get Started</a>
+                </div>
+
+                <div class="pricing-item">
+                    <h2>Enterprise</h2>
+                    <p class="price">Custom</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Full Suite of Services</li>
+                        <li><i class="fas fa-check"></i> Unlimited Consulting</li>
+                        <li><i class="fas fa-check"></i> 24/7 Priority Support</li>
+                        <li><i class="fas fa-check"></i> Dedicated Account Manager</li>
+                    </ul>
+                    <a href="contact.html" class="cta-button">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item" onclick="toggleFAQ(this)">
+                <h3>What's included in the Starter plan?</h3>
+                <div class="faq-answer">
+                    <p>The Starter plan includes basic smart contract development, 5 hours of consulting, and email support. It's perfect for small businesses or individuals looking to get started with blockchain technology.</p>
+                </div>
+            </div>
+            <div class="faq-item" onclick="toggleFAQ(this)">
+                <h3>Can I upgrade my plan later?</h3>
+                <div class="faq-answer">
+                    <p>Yes, you can upgrade your plan at any time. Simply contact our support team, and we'll help you transition to a higher-tier plan that better suits your needs.</p>
+                </div>
+            </div>
+            <!-- Add more FAQ items as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content (same as index.html) -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

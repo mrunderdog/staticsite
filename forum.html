@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPEX BlockChain Innovators - 포럼</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">GPEX BlockChain Innovators</div>
+            <ul>
+                <li><a href="index.html">홈</a></li>
+                <li><a href="services.html">서비스</a></li>
+                <li><a href="pricing.html">가격</a></li>
+                <li><a href="forum.html">포럼</a></li>
+                <li><a href="contact.html">문의</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="forum-hero">
+            <div class="container">
+                <h1>GPEX 커뮤니티 포럼</h1>
+                <p>블록체인 기술과 혁신에 대한 토론에 참여하세요</p>
+            </div>
+        </section>
+
+        <section id="forum-content">
+            <div class="container">
+                <div class="section-title">
+                    <h2>최근 토론</h2>
+                    <p>우리 커뮤니티의 최신 주제를 탐색해보세요</p>
+                </div>
+                <div class="forum-board">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>번호</th>
+                                <th>제목</th>
+                                <th>작성자</th>
+                                <th>작성일</th>
+                                <th>조회수</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>3</td>
+                                <td><a href="#" class="post-link" data-post-id="3">스마트 컨트랙트 개발 팁 공유</a></td>
+                                <td>블록체인마스터</td>
+                                <td>2023-04-15</td>
+                                <td>42</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><a href="#" class="post-link" data-post-id="2">DApp 개발 모범 사례</a></td>
+                                <td>이더리움개발자</td>
+                                <td>2023-04-14</td>
+                                <td>78</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td><a href="#" class="post-link" data-post-id="1">블록체인 기술의 미래 전망</a></td>
+                                <td>암호화폐전문가</td>
+                                <td>2023-04-13</td>
+                                <td>105</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="forum-pagination">
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">다음 ></a>
+                </div>
+                <div class="forum-search">
+                    <input type="text" placeholder="검색어를 입력하세요">
+                    <button type="submit">검색</button>
+                </div>
+                <div class="forum-buttons">
+                    <a href="#" class="cta-button">글쓰기</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 게시물 자세히보기 모달 -->
+        <div id="post-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="post-title"></h2>
+                <p id="post-info"></p>
+                <div id="post-content"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>빠른 링크</h4>
+                <ul>
+                    <li><a href="index.html">홈</a></li>
+                    <li><a href="services.html">서비스</a></li>
+                    <li><a href="pricing.html">가격</a></li>
+                    <li><a href="forum.html">포럼</a></li>
+                    <li><a href="contact.html">문의</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>소셜 미디어</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2023 GPEX BlockChain Innovators. 모든 권리 보유.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
